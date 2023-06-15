@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Hiddentechies_Bentriz::bentriz" title="Bentriz" module="Hiddentechies_Bentriz" sortOrder="65" resource="Hiddentechies_Bentriz::bentriz"/>
+        <add id="Hiddentechies_Bentriz::bentrizsettings" title="Configuration" module="Hiddentechies_Bentriz" sortOrder="20" parent="Hiddentechies_Bentriz::bentriz" action="adminhtml/system_config/edit/section/bentrizsettings" resource="Hiddentechies_Bentriz::bentriz"/>
+    </menu>
+</config>

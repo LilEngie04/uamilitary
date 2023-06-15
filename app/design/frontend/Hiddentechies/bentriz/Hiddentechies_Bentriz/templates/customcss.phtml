@@ -1,0 +1,15 @@
+<?php
+
+?>
+<?php
+$helper = $this->helper('Hiddentechies\Bentriz\Helper\Data');
+$customCss = $helper->getConfigValue('bentrizsettings/customcss/custom_css');
+if ($customCss !== '') {
+    ?>
+    <style>
+    <?php
+    echo $customCss;
+    ?>
+    </style>
+<?php }
+?>
